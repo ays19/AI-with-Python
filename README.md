@@ -27,11 +27,9 @@ This repository contains code examples, Jupyter notebooks, exercises, and study 
 
 ```plaintext
 AI-with-Python/
-├── code/
-│   └── AI with Python/
-│       └── python_with_AI.ipynb    # Unit-wise Python & AI notebooks
-├── .gitignore                      # Git ignore file for large media and cache
-└── README.md                       # Repository documentation
+├── python_with_AI.ipynb    # Unit-wise Python & AI notebooks
+├── .gitignore              # Git ignore file for cache and environments
+└── README.md               # Repository documentation
 ```
 
 ---
