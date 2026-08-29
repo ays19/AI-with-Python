@@ -68,8 +68,11 @@ AI-with-Python/
 | Topic | Key Concepts |
 |-------|-------------|
 | **Data Loading** | Reading remote datasets (`pd.read_csv()`) |
-| **Data Inspection** | `head()`, `tail()`, checking column data types with `dtypes` |
+| **Data Inspection** | `head()`, `tail()`, checking column data types with `dtypes`, listing columns with `.columns` |
 | **Descriptive Statistics** | Summary statistics with `describe()` |
+| **Column Selection & Slicing** | Single/multi-column access, row slicing `df[['col']][start:end:step]` |
+| **Type-Based Filtering** | Filtering columns by dtype (`df[df.dtypes[df.dtypes == 'float64'].index]`) |
+| **Column Manipulation** | Appending new columns (`df['col'] = val`), inserting at specific index with `df.insert()` |
 
 ---
 
