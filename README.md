@@ -57,7 +57,9 @@ AI-with-Python/
 | **Array Creation** | `np.array()`, `np.zeros()`, `np.ones()`, `np.arange()` |
 | **Multi-Dimensional Arrays** | 2D, 5D arrays, `ndim` check |
 | **Indexing & Slicing** | Array element access and slicing |
-| **Mathematical Operations** | Element-wise arithmetic on arrays |
+| **Mathematical Operations** | Element-wise arithmetic (`+`, `*`, `/`) |
+| **Aggregation & Reshaping** | `np.sum()`, array reshaping with `reshape()` |
+| **Random Numbers** | `np.random.rand()`, `np.random.randint()` |
 
 ---
 
