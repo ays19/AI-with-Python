@@ -5,6 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![License](https://img.shields.io/badge/License-Educational-green)](#-license)
 
 ---
@@ -25,6 +26,7 @@ This repository is my structured, self-paced study of **AI and Machine Learning 
 AI-with-Python/
 ├── python_fundamentals.ipynb   # Units 1–11: Core Python (variables → sets)
 ├── NumPy.ipynb                 # NumPy: arrays, operations, performance
+├── Pandas.ipynb                # Pandas: DataFrames, inspection, summary stats
 ├── .gitignore
 └── README.md
 ```
@@ -61,6 +63,14 @@ AI-with-Python/
 | **Aggregation & Reshaping** | `np.sum()`, array reshaping with `reshape()` |
 | **Random Numbers** | `np.random.rand()`, `np.random.randint()` |
 
+### 📓 [`Pandas.ipynb`](Pandas.ipynb)
+
+| Topic | Key Concepts |
+|-------|-------------|
+| **Data Loading** | Reading remote datasets (`pd.read_csv()`) |
+| **Data Inspection** | `head()`, `tail()`, checking column data types with `dtypes` |
+| **Descriptive Statistics** | Summary statistics with `describe()` |
+
 ---
 
 ## 🚀 Getting Started
@@ -96,7 +106,7 @@ jupyter notebook
 ```
 ✅ Phase 1: Python Fundamentals (Units 1–11)     ← COMPLETED
 🔄 Phase 2: NumPy & Scientific Computing          ← IN PROGRESS
-⬜ Phase 3: Pandas & Data Manipulation
+🔄 Phase 3: Pandas & Data Manipulation            ← IN PROGRESS
 ⬜ Phase 4: Data Visualization (Matplotlib & Seaborn)
 ⬜ Phase 5: Machine Learning (Scikit-Learn)
 ⬜ Phase 6: Deep Learning (PyTorch / TensorFlow)
@@ -112,6 +122,7 @@ jupyter notebook
 | Python 3.14 | Core programming language |
 | Jupyter Notebook | Interactive coding environment |
 | NumPy | Numerical computing & array operations |
+| Pandas | Data analysis & DataFrame manipulation |
 | Git & GitHub | Version control & portfolio hosting |
 
 ---
