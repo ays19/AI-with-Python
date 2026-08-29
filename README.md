@@ -1,36 +1,63 @@
-# AI with Python
+# 🤖 AI with Python
 
-A repository dedicated to learning and mastering Artificial Intelligence and Machine Learning using Python, covering fundamental Python concepts, data science libraries, and modern AI engineering practices.
+> A hands-on learning journey from Python fundamentals to Artificial Intelligence — documented through Jupyter notebooks with runnable code examples.
 
----
-
-## 📚 Table of Contents
-
-- [Overview](#-overview)
-- [Repository Structure](#-repository-structure)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup Environment](#setup-environment)
-- [Curriculum & Topics](#-curriculum--topics)
-- [Resources](#-resources)
-- [License](#-license)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
+[![License](https://img.shields.io/badge/License-Educational-green)](#-license)
 
 ---
 
-## 🎯 Overview
+## 📌 What This Repository Is About
 
-This repository contains code examples, Jupyter notebooks, exercises, and study resources for learning AI with Python from beginner to advanced levels.
+This repository is my structured, self-paced study of **AI and Machine Learning using Python**. Every concept is implemented as a runnable Jupyter notebook — no slides, no theory-only notes. Just code you can execute, modify, and learn from.
+
+**Who is this for?**
+- 🎓 **Learners** looking for a clear, unit-by-unit Python → AI progression with working examples
+- 💼 **Recruiters** evaluating my practical coding skills, learning consistency, and documentation quality
 
 ---
 
 ## 📂 Repository Structure
 
-```plaintext
-AI-with-Python/
-├── python_with_AI.ipynb    # Unit-wise Python & AI notebooks
-├── .gitignore              # Git ignore file for cache and environments
-└── README.md               # Repository documentation
 ```
+AI-with-Python/
+├── python_fundamentals.ipynb   # Units 1–11: Core Python (variables → sets)
+├── NumPy.ipynb                 # NumPy: arrays, operations, performance
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 📖 Topics Covered
+
+### 📓 [`python_fundamentals.ipynb`](python_fundamentals.ipynb)
+
+| Unit | Topic | Key Concepts |
+|------|-------|-------------|
+| 1 | **Python Basics** | Comments, variables, data types (`int`, `float`, `str`, `complex`) |
+| 2 | **Operators** | Arithmetic (`+`, `-`, `*`, `/`, `%`, `**`), practice problems |
+| 3 | **Built-in Functions** | `eval()`, `abs()`, `sum()`, `pow()`, `input()`, type conversion, `len()` |
+| 4 | **Conditional Statements** | `if`, `if-else`, `if-elif-else` |
+| 5 | **Loops** | `while`, infinite loops, `for`, `break`, `continue` |
+| 6 | **User-Defined Functions** | Function creation, arguments |
+| 7 | **Strings** | Indexing, slicing, reverse, `upper()`, `lower()`, `replace()`, `find()`, concatenation |
+| 8 | **Lists** | Creating, duplicates, access, slicing, modify, `append()`, `remove()`, join |
+| 9 | **Tuples** | Nested tuples, single-element tuples, modification workaround, deletion |
+| 10 | **Dictionaries** | Ordering, duplicates, constructor, CRUD operations, `clear()` |
+| 11 | **Sets** | Creating, duplicates, `True`/`1` equivalence, nesting, `add()`, `remove()`, `union()` |
+
+### 📓 [`NumPy.ipynb`](NumPy.ipynb)
+
+| Topic | Key Concepts |
+|-------|-------------|
+| **Why NumPy?** | Performance benchmark — list vs NumPy array speed comparison |
+| **Array Creation** | `np.array()`, `np.zeros()`, `np.ones()`, `np.arange()` |
+| **Multi-Dimensional Arrays** | 2D, 5D arrays, `ndim` check |
+| **Indexing & Slicing** | Array element access and slicing |
+| **Mathematical Operations** | Element-wise arithmetic on arrays |
 
 ---
 
@@ -38,62 +65,67 @@ AI-with-Python/
 
 ### Prerequisites
 
-- Python 3.10+ (or Anaconda / Miniconda)
-- Jupyter Notebook / JupyterLab or VS Code with Jupyter extension
+- **Python 3.10+** (or [Anaconda](https://www.anaconda.com/) / [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
+- **Jupyter Notebook** / JupyterLab / VS Code with Jupyter extension
 
-### Setup Environment
+### Quick Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone git@github.com:ays19/AI-with-Python.git
-   cd AI-with-Python
-   ```
+```bash
+# 1. Clone the repository
+git clone https://github.com/ays19/AI-with-Python.git
+cd AI-with-Python
 
-2. **(Optional) Create and activate a virtual environment:**
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
+# 2. Create virtual environment (optional but recommended)
+python3 -m venv .venv
+source .venv/bin/activate        # Linux/macOS
+# .venv\Scripts\activate          # Windows
 
-3. **Install recommended packages:**
-   ```bash
-   pip install ipykernel numpy pandas matplotlib seaborn scikit-learn
-   ```
+# 3. Install dependencies
+pip install ipykernel numpy pandas matplotlib seaborn scikit-learn
 
-4. **Launch Jupyter Notebook:**
-   ```bash
-   jupyter notebook
-   ```
+# 4. Launch Jupyter
+jupyter notebook
+```
 
 ---
 
-## 📖 Curriculum & Topics
+## 🗺️ Learning Roadmap
 
-- **Unit 1: Fundamentals of Python**
-  - Python Syntax, Data Types & Control Flow
-  - Functions, Modules & Object-Oriented Programming (OOP)
-  - Working with Files & Virtual Environments
-- **Unit 2: Data Handling & Scientific Computing**
-  - NumPy for numerical computing
-  - Pandas for data manipulation and analysis
-  - Matplotlib & Seaborn for data visualization
-- **Unit 3: Machine Learning & AI Foundations**
-  - Supervised and Unsupervised Learning (Scikit-Learn)
-  - Model evaluation, validation, and hyperparameter tuning
-- **Unit 4: Deep Learning & Modern AI**
-  - Neural Networks (PyTorch / TensorFlow)
-  - Large Language Models (LLMs) and Prompt Engineering
-  - Autonomous AI Agents
+```
+✅ Phase 1: Python Fundamentals (Units 1–11)     ← COMPLETED
+🔄 Phase 2: NumPy & Scientific Computing          ← IN PROGRESS
+⬜ Phase 3: Pandas & Data Manipulation
+⬜ Phase 4: Data Visualization (Matplotlib & Seaborn)
+⬜ Phase 5: Machine Learning (Scikit-Learn)
+⬜ Phase 6: Deep Learning (PyTorch / TensorFlow)
+⬜ Phase 7: LLMs & AI Agents
+```
 
 ---
 
-## 📑 Resources
+## 🛠️ Tech Stack
 
-- **AI Engineer Full Course**: Step-by-step practical guides and video walkthroughs.
-- **Course Notes**: Reference notes and cheat sheets.
+| Tool | Purpose |
+|------|---------|
+| Python 3.14 | Core programming language |
+| Jupyter Notebook | Interactive coding environment |
+| NumPy | Numerical computing & array operations |
+| Git & GitHub | Version control & portfolio hosting |
+
+---
+
+## 📊 Progress & Commit History
+
+This repository is **actively maintained** with consistent, incremental commits — each one representing a focused learning session. Check the [commit history](https://github.com/ays19/AI-with-Python/commits/main) to see the progression.
 
 ---
 
 ## 📄 License
 
-This repository is maintained for educational and personal learning purposes.
+This repository is maintained for **educational and personal learning purposes**.
+
+---
+
+<p align="center">
+  <i>Built with curiosity and consistency 🚀</i>
+</p>
