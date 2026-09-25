@@ -1,82 +1,113 @@
 # 🤖 AI with Python
 
-> A hands-on learning journey from Python fundamentals to Artificial Intelligence — documented through Jupyter notebooks with runnable code examples.
+> A hands-on journey from Python fundamentals to Artificial Intelligence — every concept implemented as a runnable Jupyter notebook with real code.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?logo=plotly&logoColor=white)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-444876?logo=python&logoColor=white)](https://seaborn.pydata.org/)
 [![License](https://img.shields.io/badge/License-Educational-green)](#-license)
 
 ---
 
-## 📌 What This Repository Is About
+## About
 
-This repository is my structured, self-paced study of **AI and Machine Learning using Python**. Every concept is implemented as a runnable Jupyter notebook — no slides, no theory-only notes. Just code you can execute, modify, and learn from.
+This repository is a structured, self-paced curriculum covering **Python → Data Science → Machine Learning → AI**. Every topic is a runnable notebook — no slides, no theory-only notes.
 
-**Who is this for?**
-- 🎓 **Learners** looking for a clear, unit-by-unit Python → AI progression with working examples
-- 💼 **Recruiters** evaluating my practical coding skills, learning consistency, and documentation quality
+**Built for:**
+- 💼 **Recruiters & hiring managers** — evaluate practical skills, learning consistency, and documentation quality at a glance.
+- 🎓 **Learners** — follow a clear, unit-by-unit progression with working examples you can run and modify.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 AI-with-Python/
-├── python_fundamentals.ipynb   # Units 1–11: Core Python (variables → sets)
-├── NumPy.ipynb                 # NumPy: arrays, operations, performance
-├── Pandas.ipynb                # Pandas: DataFrames, inspection, summary stats
-├── .gitignore
+├── python_fundamentals.ipynb    # Core Python (Units 1–11)
+├── NumPy.ipynb                  # Numerical computing & arrays
+├── Pandas.ipynb                 # DataFrames & data manipulation
+├── Matplotlib.ipynb             # Data visualization — plots & charts
+├── seaborn.ipynb                # Statistical visualization
+├── Statistics/
+│   └── mean.ipynb               # Descriptive statistics — mean calculation
 └── README.md
 ```
 
 ---
 
-## 📖 Topics Covered
+## Topics Covered
 
-### 📓 [`python_fundamentals.ipynb`](python_fundamentals.ipynb)
+### [`python_fundamentals.ipynb`](python_fundamentals.ipynb) — Core Python
 
-| Unit | Topic | Key Concepts |
-|------|-------|-------------|
-| 1 | **Python Basics** | Comments, variables, data types (`int`, `float`, `str`, `complex`) |
-| 2 | **Operators** | Arithmetic (`+`, `-`, `*`, `/`, `%`, `**`), practice problems |
-| 3 | **Built-in Functions** | `eval()`, `abs()`, `sum()`, `pow()`, `input()`, type conversion, `len()` |
-| 4 | **Conditional Statements** | `if`, `if-else`, `if-elif-else` |
-| 5 | **Loops** | `while`, infinite loops, `for`, `break`, `continue` |
-| 6 | **User-Defined Functions** | Function creation, arguments |
-| 7 | **Strings** | Indexing, slicing, reverse, `upper()`, `lower()`, `replace()`, `find()`, concatenation |
-| 8 | **Lists** | Creating, duplicates, access, slicing, modify, `append()`, `remove()`, join |
-| 9 | **Tuples** | Nested tuples, single-element tuples, modification workaround, deletion |
-| 10 | **Dictionaries** | Ordering, duplicates, constructor, CRUD operations, `clear()` |
-| 11 | **Sets** | Creating, duplicates, `True`/`1` equivalence, nesting, `add()`, `remove()`, `union()` |
+| Unit | Topic | Highlights |
+|:----:|-------|------------|
+| 1 | Python Basics | Variables, data types (`int`, `float`, `str`, `complex`), comments |
+| 2 | Operators | Arithmetic, modulus, exponentiation, practice problems |
+| 3 | Built-in Functions | `eval()`, `abs()`, `sum()`, `pow()`, `input()`, type conversion |
+| 4 | Conditionals | `if`, `if-else`, `if-elif-else` |
+| 5 | Loops | `while`, `for`, `break`, `continue`, infinite loops |
+| 6 | Functions | User-defined functions, arguments, return values |
+| 7 | Strings | Indexing, slicing, `upper()`, `lower()`, `replace()`, `find()` |
+| 8 | Lists | CRUD, slicing, `append()`, `remove()`, list joining |
+| 9 | Tuples | Nesting, single-element tuples, modification workarounds |
+| 10 | Dictionaries | Ordering, constructors, CRUD, `clear()` |
+| 11 | Sets | Duplicates, `True`/`1` equivalence, `add()`, `union()` |
 
-### 📓 [`NumPy.ipynb`](NumPy.ipynb)
+### [`NumPy.ipynb`](NumPy.ipynb) — Numerical Computing
 
-| Topic | Key Concepts |
-|-------|-------------|
-| **Why NumPy?** | Performance benchmark — list vs NumPy array speed comparison |
-| **Array Creation** | `np.array()`, `np.zeros()`, `np.ones()`, `np.arange()` |
-| **Multi-Dimensional Arrays** | 2D, 5D arrays, `ndim` check |
-| **Indexing & Slicing** | Array element access and slicing |
-| **Mathematical Operations** | Element-wise arithmetic (`+`, `*`, `/`) |
-| **Aggregation & Reshaping** | `np.sum()`, array reshaping with `reshape()` |
-| **Random Numbers** | `np.random.rand()`, `np.random.randint()` |
+| Topic | Highlights |
+|-------|------------|
+| Why NumPy? | List vs. array performance benchmark |
+| Array Creation | `np.array()`, `np.zeros()`, `np.ones()`, `np.arange()` |
+| N-Dimensional Arrays | 2D & 5D arrays, `ndim` |
+| Indexing & Slicing | Element access, sub-array extraction |
+| Math Operations | Element-wise `+`, `*`, `/` |
+| Aggregation & Reshape | `np.sum()`, `reshape()` |
+| Random Numbers | `np.random.rand()`, `np.random.randint()` |
 
-### 📓 [`Pandas.ipynb`](Pandas.ipynb)
+### [`Pandas.ipynb`](Pandas.ipynb) — Data Manipulation
 
-| Topic | Key Concepts |
-|-------|-------------|
-| **Data Loading** | Reading remote datasets (`pd.read_csv()`) |
-| **Data Inspection** | `head()`, `tail()`, checking column data types with `dtypes`, listing columns with `.columns` |
-| **Descriptive Statistics** | Summary statistics with `describe()` |
-| **Column Selection & Slicing** | Single/multi-column access, row slicing `df[['col']][start:end:step]` |
-| **Type-Based Filtering** | Filtering columns by dtype (`df[df.dtypes[df.dtypes == 'float64'].index]`) |
-| **Column Manipulation** | Appending new columns (`df['col'] = val`), inserting at specific index with `df.insert()` |
+| Topic | Highlights |
+|-------|------------|
+| Data Loading | `pd.read_csv()` from remote sources |
+| Inspection | `head()`, `tail()`, `dtypes`, `.columns` |
+| Descriptive Stats | `describe()` summary statistics |
+| Selection & Slicing | Single/multi-column access, row slicing |
+| Type-Based Filtering | Filter columns by dtype |
+| Column Manipulation | Appending columns, `df.insert()` |
+
+### [`Matplotlib.ipynb`](Matplotlib.ipynb) — Data Visualization
+
+| Topic | Highlights |
+|-------|------------|
+| Line Plots | Basic line charts with `plt.plot()` |
+| Scatter Plots | Data point visualization |
+| Bar Charts | Vertical & horizontal bar graphs |
+| Subplots | Multiple plots in a single figure |
+| Styling | Colors, labels, titles, grid customization |
+
+### [`seaborn.ipynb`](seaborn.ipynb) — Statistical Visualization
+
+| Topic | Highlights |
+|-------|------------|
+| Line Plots | `sns.lineplot()` with hue & style grouping |
+| Bar Plots | `sns.barplot()` with categorical data, palettes |
+| Distribution Plots | `sns.displot()` with custom bins & KDE |
+| Real Datasets | Penguins dataset — multi-variable exploration |
+
+### [`Statistics/mean.ipynb`](Statistics/mean.ipynb) — Descriptive Statistics
+
+| Topic | Highlights |
+|-------|------------|
+| Population Mean | Manual mean calculation on population data |
+| Sample Mean | Sample mean with `sum()` / `len()` |
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -86,57 +117,58 @@ AI-with-Python/
 ### Quick Setup
 
 ```bash
-# 1. Clone the repository
+# Clone
 git clone https://github.com/ays19/AI-with-Python.git
 cd AI-with-Python
 
-# 2. Create virtual environment (optional but recommended)
-python3 -m venv .venv
-source .venv/bin/activate        # Linux/macOS
-# .venv\Scripts\activate          # Windows
+# Virtual environment (recommended)
+python3 -m venv .venv && source .venv/bin/activate
 
-# 3. Install dependencies
+# Install dependencies
 pip install ipykernel numpy pandas matplotlib seaborn scikit-learn
 
-# 4. Launch Jupyter
+# Launch
 jupyter notebook
 ```
 
 ---
 
-## 🗺️ Learning Roadmap
+## Learning Roadmap
 
-```
-✅ Phase 1: Python Fundamentals (Units 1–11)     ← COMPLETED
-🔄 Phase 2: NumPy & Scientific Computing          ← IN PROGRESS
-🔄 Phase 3: Pandas & Data Manipulation            ← IN PROGRESS
-⬜ Phase 4: Data Visualization (Matplotlib & Seaborn)
-⬜ Phase 5: Machine Learning (Scikit-Learn)
-⬜ Phase 6: Deep Learning (PyTorch / TensorFlow)
-⬜ Phase 7: LLMs & AI Agents
-```
+| Phase | Topic | Status |
+|:-----:|-------|:------:|
+| 1 | Python Fundamentals (Units 1–11) | ✅ Complete |
+| 2 | NumPy & Scientific Computing | ✅ Complete |
+| 3 | Pandas & Data Manipulation | ✅ Complete |
+| 4 | Data Visualization (Matplotlib & Seaborn) | ✅ Complete |
+| 5 | Statistics & Probability | 🔄 In Progress |
+| 6 | Machine Learning (Scikit-Learn) | ⬜ Upcoming |
+| 7 | Deep Learning (PyTorch / TensorFlow) | ⬜ Upcoming |
+| 8 | LLMs & AI Agents | ⬜ Upcoming |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
-| Python 3.14 | Core programming language |
+| Python 3.14 | Core language |
 | Jupyter Notebook | Interactive coding environment |
-| NumPy | Numerical computing & array operations |
-| Pandas | Data analysis & DataFrame manipulation |
-| Git & GitHub | Version control & portfolio hosting |
+| NumPy | Numerical computing & arrays |
+| Pandas | Data analysis & DataFrames |
+| Matplotlib | Plotting & chart visualization |
+| Seaborn | Statistical data visualization |
+| Git & GitHub | Version control & portfolio |
 
 ---
 
-## 📊 Progress & Commit History
+## Progress
 
-This repository is **actively maintained** with consistent, incremental commits — each one representing a focused learning session. Check the [commit history](https://github.com/ays19/AI-with-Python/commits/main) to see the progression.
+This repository is **actively maintained** with consistent, incremental commits. Check the [commit history](https://github.com/ays19/AI-with-Python/commits/main) to see the progression.
 
 ---
 
-## 📄 License
+## License
 
 This repository is maintained for **educational and personal learning purposes**.
 
